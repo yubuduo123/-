@@ -1,0 +1,19 @@
+https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496
+
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+$ mkdir learngit
+$ cd learngit
+$ pwd
+/Users/michael/learngit
+
+$ git init		把这个目录变成Git可以管理的仓库：
+
+ls -ah		可查看隐藏目录.git
+
+
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+git status
+git diff	顾名思义就是查看difference
